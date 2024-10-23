@@ -7,6 +7,7 @@ import DarkMode from './assets/Dark-Mode-Pillar.png';
 import passGenerator from './assets/passwordGenerator.jpeg';
 import todo from './assets/todo.webp';
 import Counter from './pages/Counter';
+import Bgchanger from './pages/Bgchanger';
 
 function App() {
   // bg-[#6625FC]
@@ -59,8 +60,8 @@ function App() {
           })
         }
       </div> */}
-      <Counter/>
-      
+      {/* <Counter/> */}
+      <Bgchanger/>
     </>
   )
 }
