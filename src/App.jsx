@@ -8,6 +8,7 @@ import passGenerator from './assets/passwordGenerator.jpeg';
 import todo from './assets/todo.webp';
 import Counter from './pages/Counter';
 import Bgchanger from './pages/Bgchanger';
+import Passwordgenerator from './pages/Passwordgenerator';
 
 function App() {
   // bg-[#6625FC]
@@ -61,7 +62,8 @@ function App() {
         }
       </div> */}
       {/* <Counter/> */}
-      <Bgchanger/>
+      {/* <Bgchanger/> */}
+      <Passwordgenerator/>
     </>
   )
 }
