@@ -9,6 +9,7 @@ import todo from './assets/todo.webp';
 import Counter from './pages/Counter';
 import Bgchanger from './pages/Bgchanger';
 import Passwordgenerator from './pages/Passwordgenerator';
+import Ecommerce from './pages/Ecommerce';
 
 function App() {
   // bg-[#6625FC]
@@ -63,7 +64,8 @@ function App() {
       </div> */}
       {/* <Counter/> */}
       {/* <Bgchanger/> */}
-      <Passwordgenerator/>
+      {/* <Passwordgenerator/> */}
+      <Ecommerce/>
     </>
   )
 }
