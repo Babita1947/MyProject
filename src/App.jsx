@@ -19,41 +19,41 @@ function App() {
       title: "Todo",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
       img: todo,
-      link: ""
+      link: "/todo"
     },
     {
       id: 2,
       title: "Counter",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
       img: counter,
-      link: ""
+      link: "/counter"
     },
     {
       id: 3,
       title: "Background Changer",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
       img: bgChanger,
-      link: ""
+      link: "/bgchanger"
     },
     {
       id: 4,
       title: "Password Generator",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
       img: passGenerator,
-      link: ""
+      link: "/passwordgenerator"
     },
     {
       id: 5,
       title: "Theme Switcher",
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
       img: DarkMode,
-      link: ""
+      link: "/themeswitcher"
     }
   ]
   return (
     <>
-      {/* <h1 className='mt-3 text-4xl h-10 font-bold flex justify-center align-middle'>My Project</h1>
-      <div>
+      <h1 className='pt-3 text-4xl h-10 font-bold flex justify-center align-middle bg-white'>My Project</h1>
+      <div className='bg-white'>
         {
           cardArr.map((item, index) => {
             return (
@@ -61,11 +61,8 @@ function App() {
             )
           })
         }
-      </div> */}
-      {/* <Counter/> */}
-      {/* <Bgchanger/> */}
-      {/* <Passwordgenerator/> */}
-      <Ecommerce/>
+      </div>
+      
     </>
   )
 }
