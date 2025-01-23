@@ -13,6 +13,8 @@ import Counter from './pages/Counter.jsx';
 import Ecommerce from './pages/Ecommerce.jsx';
 import Passwordgenerator from './pages/Passwordgenerator.jsx';
 import { NotFound } from './pages/NotFound.jsx';
+import Todo from './pages/Todo.jsx';
+import ThemeSwitcher from './pages/ThemeSwitcher.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
   {
     path: "passwordgenerator",
     element: <Passwordgenerator/>
+  },
+  {
+    path: "todo",
+    element: <Todo/>
+  },
+  {
+    path: "themeswitcher",
+    element: <ThemeSwitcher/>
   },
   {
     path: "*",

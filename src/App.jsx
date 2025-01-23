@@ -1,18 +1,16 @@
 import './App.css'
-import { Card } from './Components/card'
+import {Card} from './Components/Card'
 
 import bgChanger from './assets/bgChanger.svg';
 import counter from './assets/counter.jpg';
 import DarkMode from './assets/Dark-Mode-Pillar.png';
 import passGenerator from './assets/passwordGenerator.jpeg';
 import todo from './assets/todo.webp';
-import Counter from './pages/Counter';
-import Bgchanger from './pages/Bgchanger';
-import Passwordgenerator from './pages/Passwordgenerator';
-import Ecommerce from './pages/Ecommerce';
+import EcommerceAPI from './assets/ecommerce.jpg';
+import Kard from './Components/Kard';
+
 
 function App() {
-  // bg-[#6625FC]
   const cardArr = [
     {
       id: 1,
@@ -48,6 +46,13 @@ function App() {
       desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
       img: DarkMode,
       link: "/themeswitcher"
+    },
+    {
+      id: 6,
+      title: "Ecommerce API",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel provident recusandae voluptate.",
+      img: EcommerceAPI,
+      link: "/ecommerce"
     }
   ]
   return (
